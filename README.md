@@ -1,5 +1,3 @@
-The Code will be released soon!
-
 # MPDA
 Multi-Person Data Augmentation for 3d Human Pose Estimation
 
@@ -18,3 +16,6 @@ Please follow [VoxelPose](https://github.com/microsoft/voxelpose-pytorch) to dow
 
 ## Visual Results
 ![qualitative1](https://github.com/hyeon0819/MPDA/assets/153258272/aa497e5d-2a2e-4f20-b64e-b3e47b565b1a)
+
+
+The Code will be released soon!
