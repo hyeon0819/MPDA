@@ -25,6 +25,8 @@ We follow [VoxelPose](https://github.com/microsoft/voxelpose-pytorch) to downloa
 
 2. Download the pretrained backbone model from [pretrained backbone](https://onedrive.live.com/?id=93774C670BD4F835!1917&resid=93774C670BD4F835!1917&authkey=!AMf08ZItxtILRuU&cid=93774c670bd4f835) and place it here: `${POSE_ROOT}/models/pose_resnet50_panoptic.pth.tar` (ResNet-50 pretrained on COCO dataset and finetuned jointly on Panoptic dataset and MPII).
 
+To download the organization of the data in this paper, run `sh scripts/getData_voxelpose.sh`.
+
 ## Visual Results
 ![qualitative1](https://github.com/hyeon0819/MPDA/assets/153258272/aa497e5d-2a2e-4f20-b64e-b3e47b565b1a)
 
