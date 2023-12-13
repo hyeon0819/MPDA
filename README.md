@@ -16,7 +16,7 @@ We follow [VoxelPose](https://github.com/microsoft/voxelpose-pytorch) to downloa
 4. For testing, we first estimate 2D poses and generate 2D heatmaps for these two datasets in this repository. The predicted poses can also download from the repository. They lie in ${POSE_ROOT}/data/Shelf/ and ${POSE_ROOT}/data/CampusSeq1/, respectively. You can also use the models trained on COCO dataset (like HigherHRNet) to generate 2D heatmaps directly.
    
 ### CMU Panoptic datasets
-1. Download the dataset by following the instructions in [panoptic-toolbox](https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox) and extract them under ${POSE_ROOT}/data/panoptic_toolbox/data.
+1. Download the dataset by following the instructions in [panoptic-toolbox](https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox) and extract them under `${POSE_ROOT}/data/panoptic_toolbox/data`.
 - You can only download those sequences you need. You can also just download a subset of camera views by specifying the number of views (HD_Video_Number) and changing the camera order in ./scripts/getData.sh. The sequences and camera views used in our project can be obtained from our paper.
 - Note that we only use HD videos, calibration data, and 3D Body Keypoint in the codes. You can comment out other irrelevant codes such as downloading 3D Face data in ./scripts/getData.sh.
 2. Download the pretrained backbone model from [pretrained backbone](https://onedrive.live.com/?id=93774C670BD4F835!1917&resid=93774C670BD4F835!1917&authkey=!AMf08ZItxtILRuU&cid=93774c670bd4f835) and place it here: ${POSE_ROOT}/models/pose_resnet50_panoptic.pth.tar (ResNet-50 pretrained on COCO dataset and finetuned jointly on Panoptic dataset and MPII).
