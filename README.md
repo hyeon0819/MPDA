@@ -4,9 +4,9 @@ Multi-Person Data Augmentation for 3d Human Pose Estimation
 This repository is the implementation for:
 
 > ["Overcoming single-person constraints in multi-person 3D human pose estimation: A data augmentation technique with occlusion-aware heatmaps"](https://link.springer.com/article/10.1007/s00371-025-04040-2)
-
+>
 > Sanghyeon Lee, Jong Taek Lee
-
+>
 > The Visual Computer
 > 
 
