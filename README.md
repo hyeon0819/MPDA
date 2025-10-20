@@ -1,7 +1,11 @@
 # MPDA
 Multi-Person Data Augmentation for 3d Human Pose Estimation
 
-This repository is the implementation of ["Overcoming single-person constraints in multi-person 3D human pose estimation: A data augmentation technique with occlusion-aware heatmaps"](https://link.springer.com/article/10.1007/s00371-025-04040-2) (The Visual Computer)
+This repository is the implementation for:
+
+> ["Overcoming single-person constraints in multi-person 3D human pose estimation: A data augmentation technique with occlusion-aware heatmaps"](https://link.springer.com/article/10.1007/s00371-025-04040-2)
+> Sanghyeon Lee, Jong Taek Lee
+> The Visual Computer
 
 ## Training Pipeline
 ![overall](https://github.com/hyeon0819/MPDA/assets/153258272/e933f34e-43c2-4172-b0af-db4305850e50)
@@ -30,3 +34,15 @@ To download the organization of the data in this paper, run `sh scripts/getData_
 ## Visual Results
 ![qualitative1](https://github.com/hyeon0819/MPDA/assets/153258272/aa497e5d-2a2e-4f20-b64e-b3e47b565b1a)
 
+## Citation
+If you use our method in your research, please cite with:
+`
+@article{lee2025occlusion,
+  title={Occlusion-aware heatmap generation for enhancing 3D human pose estimation in multi-person environments},
+  author={Lee, Sanghyeon and Lee, Jong Taek},
+  journal={The Visual Computer},
+  pages={1--13},
+  year={2025},
+  publisher={Springer}
+}
+`
