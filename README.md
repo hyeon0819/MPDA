@@ -36,7 +36,7 @@ To download the organization of the data in this paper, run `sh scripts/getData_
 
 ## Citation
 If you use our method in your research, please cite with:
-`
+```
 @article{lee2025occlusion,
   title={Occlusion-aware heatmap generation for enhancing 3D human pose estimation in multi-person environments},
   author={Lee, Sanghyeon and Lee, Jong Taek},
@@ -45,4 +45,4 @@ If you use our method in your research, please cite with:
   year={2025},
   publisher={Springer}
 }
-`
+```
